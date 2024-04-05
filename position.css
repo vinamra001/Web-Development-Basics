@@ -1,0 +1,29 @@
+.container{
+  height: 300px;
+  border: 2px solid red;
+}
+
+.child1{
+  height: 100px;
+  width: 100px;
+  border: 2px solid green;
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+
+.child2{
+  height: 100px;
+  width: 100px;
+  border: 2px solid blue;
+  position: relative;
+  left: 15px;
+  top: 40px;
+}
+
+.sticky{
+ height: 100px;
+ position: sticky;
+ background-color: green;
+ top:10px;
+}
